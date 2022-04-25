@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+                <!--Page header-->
+                <div class="header">
+                    <!--Adding hyperlink onto the header logo, for easy navigation back to the homepage by clicking on it-->
+                    <a href="Menu.html">
+                        <!--Website logo as an image-->
+                    <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARCU-logo" height="110" width="210">
+                    </a>
+                    <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+                    <script>
+                        var dt = new Date();
+                        document.getElementById('date-time').innerHTML=dt;
+                    </script> 
+                    <!--Business start date-->
+                    <div id="startyear">
+                        <p>Since 2022.</p>
+                    </div>
+                </div>
+            <!--Page navigation bar-->
+            <div class="navbar">
+                <!--Hyperlink directing to homepage-->
+                <a href="Menu.html">Menu</a>
+                <!--Dropdown menu element for flexbile navigation-->
+                <div class="dropdown">
+                    <!--Dropdown button - Category-->
+                    <button class="dropbtn">Hotel Information &#9660;
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <!--Dropdown menu content-->
+                    <div class="dropdownc">
+                        <!--Hyperlink directing to the store showing laptops, mouses and keyboards respectively-->
+                        <a href="Room.html">Room</a>
+                        <a href="Worker.html">Staff</a>
+                    </div>
+                </div>
+                <!--Dropdown menu element for flexbile navigation-->
+                <div class="dropdown">
+                    <!--Dropdown button - Brands-->
+                    <button class="dropbtn">Services &#9660;
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <!--Dropdown menu content-->
+                    <div class="dropdownc">
+                        <!--Hyperlink directing to the store sorted by brands such as acer, hp and asus(not sponsored)-->
+                        <a href="BK.html">Booking</a>
+                        <a href="PM.html">Promotion</a>
+                    </div>
+                </div>
+                <!--Hyperlink directing to the contact page-->
+                <a href="Help.html">Contact</a>
+            </div>
+    <h1>Further Information</h1><hr>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.5342401009098!2d101.72683291525202!3d3.2161696536326447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84!2sTunku%20Abdul%20Rahman%20University%20College!5e0!3m2!1sen!2smy!4v1648185488428!5m2!1sen!2smy" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+<br>
+<br>
+<br>
+<h1>Hotline Number:1200-12-12-1200</h1>
+</body>
+        <!--Wrapper for footer-->
+        <div id="footerwrapper">
+            <!--Page footer-->
+            <div class="footer">
+                <a href="https://www.youtube.com/user/LuxuryExplorer" style="text-decoration: none ;" ><p>Video Provided By : LuxuryExplorer</p></a>
+                <!--Web rights infos-->
+                <p>©Hotel TARCU. All Rights Reserved.</p>
+                <!--Horizontal line for aesthetic purpose-->
+                <hr>
+                <!--Row class for list-->
+                <div class="frow2">
+                    <!--Unordered list-->
+                    <ul>
+                        <!--Social media icons at the footer-->
+                        <li><img src="images/social-logo.jpg" width="12%"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</html>
