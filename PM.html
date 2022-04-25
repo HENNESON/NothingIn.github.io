@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Promotion</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="PMTable.css">
+</head>
+<body>
+            <!--Page header-->
+            <div class="header">
+              <!--Adding hyperlink onto the header logo, for easy navigation back to the homepage by clicking on it-->
+              <a href="Menu.html">
+                  <!--Website logo as an image-->
+              <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARCU-logo" height="110" width="210">
+              </a>
+              <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+              <script>
+                  var dt = new Date();
+                  document.getElementById('date-time').innerHTML=dt;
+              </script> 
+              <!--Business start date-->
+              <div id="startyear">
+                  <p>Since 2022.</p>
+              </div>
+          </div>
+                <!--Page navigation bar-->
+                <div class="navbar">
+                  <!--Hyperlink directing to homepage-->
+                  <a href="Menu.html">Menu</a>
+                  <!--Dropdown menu element for flexbile navigation-->
+                  <div class="dropdown">
+                      <!--Dropdown button - Category-->
+                      <button class="dropbtn">Hotel Information &#9660;
+                          <i class="fa fa-caret-down"></i>
+                      </button>
+                      <!--Dropdown menu content-->
+                      <div class="dropdownc">
+                          <!--Hyperlink directing to the store showing laptops, mouses and keyboards respectively-->
+                          <a href="Room.html">Room</a>
+                          <a href="Worker.html">Staff</a>
+                      </div>
+                  </div>
+                  <!--Dropdown menu element for flexbile navigation-->
+                  <div class="dropdown">
+                      <!--Dropdown button - Brands-->
+                      <button class="dropbtn">Services &#9660;
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <!--Dropdown menu content-->
+                      <div class="dropdownc">
+                          <!--Hyperlink directing to the store sorted by brands such as acer, hp and asus(not sponsored)-->
+                          <a href="BK.html">Booking</a>
+                          <a href="PM.html">Promotion</a>
+                      </div>
+                  </div>
+                  <!--Hyperlink directing to the contact page-->
+                  <a href="Help.html">Contact</a>
+              </div>
+<h1 style="text-align: center;padding-top: 10px; padding-bottom: 10px;">We have a Great Promotion during school Holidays and Other promotion during public Holidays!</h1><hr>
+<h3 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;padding-top: 20px; padding-bottom: 15px;">Promotion during School Holiday!!!</h3>
+<table id="vertical-1">
+<table border="1">
+    <tr><th colspan="2">Type of Room</th></tr>
+    <tr>
+        <th>Deluxe Room</th>
+        <td rowspan="2">NO Discount</td>
+    </tr>
+    <tr>
+        <th>Vip Room</th>
+    </tr>
+</table>&nbsp;<br><br>
+
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Economic Room</th>
+        <td rowspan="3">Discount 30%</td>
+        <td rowspan="3">If Booking >3 Room Discount another 30%</td>
+    </tr>
+    <tr>
+        <th>Standard Room</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table><br><br>
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Family Package room</th>
+        <td rowspan="3">Discount 10%</td>
+        <td rowspan="3">Rebate worth RM50 free gift boucer</td>
+    </tr>
+    <tr>
+        <th>-</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table>
+<br>
+<hr>
+<br>
+<h3 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;padding-top: 20px; padding-bottom: 15px;">Promotion During Public Holidays!!!</h3>
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Deluxe Room</th>
+        <td rowspan="2">50% Discount</td>
+        <td rowspan="2">Free Delivery Services to anywhere,Free worth RM500 voucher and All services and All places FOC!</td>
+    </tr>
+    <tr>
+        <th>Vip Room</th>
+    </tr>
+</table><BR><BR>
+<table border="1">
+    <tr><th colspan="4">Type of Room</th></tr>
+    <tr>
+        <th>Economic Room</th>
+        <td rowspan="3">Discount 50%</td>
+        <td rowspan="3">If Booking >3 Room Discount another 10%</td>
+        <td rowspan="3">All services FOC!</td>
+    </tr>
+    <tr>
+        <th>Standard Room</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table><br><br>
+<table border="1">
+    <tr><th colspan="5">Type of Room</th></tr>
+    <tr>
+        <th>Family Package room</th>
+        <td rowspan="3">Discount 20%</td>
+        <td rowspan="3">Rebate worth RM50 free gift boucer</td>
+        <td rowspan="3">ALL services FOC!</td>
+        <td rowspan="3">Playground&Theme Park Taruc Ticket Only need RM5 !</td>
+    </tr>
+    <tr>
+        <th>-</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table>
+<hr>
+            <!--Wrapper for footer-->
+            <div id="footerwrapper">
+              <!--Page footer-->
+              <div class="footer">
+                  <!--Web rights infos-->
+                  <p>©Hotel TARCU. All Rights Reserved.</p>
+                  <!--Horizontal line for aesthetic purpose-->
+                  <hr>
+                  <!--Row class for list-->
+                  <div class="frow2">
+                      <!--Unordered list-->
+                      <ul>
+                          <!--Social media icons at the footer-->
+                          <li><img src="images/social-logo.jpg" width="12%"></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+</html>
